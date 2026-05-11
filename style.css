@@ -102,20 +102,25 @@ on the children, the rest are properties you have used in past challenges
   width: 100vw;
   height: 320px;
     /* add code below */
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .c-6-child-1 {
   background-color: lightgrey;
   /* add code below */
-
-
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
 }
 
 .c-6-child-2 {
   background-color: darkgrey;
-
   /* add code below */
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 
@@ -149,6 +154,8 @@ on the children, the rest are properties you have used in past challenges
     one to turn it into a flex container and another to get
     the elements to get into the right direction.
     */
+  display: flex;
+  flex-direction: column;
 }
 
 .c-7-header {
@@ -158,8 +165,6 @@ on the children, the rest are properties you have used in past challenges
   This property is used on children,
   it allows it to take up any empty space
   */
-
-
 }
 
 .c-7-middle {
